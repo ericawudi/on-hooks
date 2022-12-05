@@ -11,7 +11,7 @@ export function NavBar() {
             <Link to="/useeffect">useEffect</Link> {" - "}
             <Link to="/usecontext">useContext</Link> {" - "}
             <Link to="/useref">useRef</Link> {" - "}
-            <Link to="/usestate">useState</Link> {" - "}
+            <Link to="/usereducer">useReducer</Link>
           </li>
         </ul>
       </nav>

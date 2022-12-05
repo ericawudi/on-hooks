@@ -3,6 +3,7 @@ import { NavBar } from "./NavBar";
 import { Home } from "./pages/Home";
 import { OnUseContext } from "./pages/OnUseContext";
 import { OnUseEffect } from "./pages/OnUseEffect";
+import { OnUseReducer } from "./pages/OnUseReducer";
 import { OnUseRef } from "./pages/OnUseRef";
 import OnUseState from "./pages/OnUseState";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/useeffect" element={<OnUseEffect />} />
         <Route path="/usecontext" element={<OnUseContext />} />
         <Route path="/useref" element={<OnUseRef />} />
+        <Route path="/usereducer" element={<OnUseReducer />} />
       </Routes>
     </>
   );
